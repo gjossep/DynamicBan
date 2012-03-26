@@ -1,0 +1,20 @@
+name: DynamicBan
+main: me.xdrapor.dynamicban.DynamicBan
+version: 1.0a
+author: [xDrapor]
+permissions:
+    dynamicban.ipban:
+        description: Access to the /dynban command.
+commands:
+    dyncheck:
+        description: shows the IP-Address for the given playername
+        usage: /<command> <playerName>
+    dynban:
+        description: bans the given IP-Address
+        usage: /<command> <playerName>
+    dynbk:
+        description: bans the player IP and kick him from the server
+        usage: /<command> <playername>
+    dynlist:
+        description: gives a list with all playernames and IP-Adresses
+        usage: /<command> 
