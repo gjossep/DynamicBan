@@ -1,6 +1,7 @@
 package me.xdrapor.dynamicban.commands;
 
 import java.net.InetSocketAddress;
+import java.util.List;
 
 import me.xdrapor.dynamicban.DynamicBan;
 
@@ -10,6 +11,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.plugin.java.JavaPlugin;
 
 @SuppressWarnings("unused")
 public class DynamicIPList implements CommandExecutor
@@ -54,7 +56,7 @@ public class DynamicIPList implements CommandExecutor
 						
 						cs.sendMessage("Name : " + onlinePlayerName + "IP : " + IPAddressDelimitedTwo);
 		            }
-		}
+				}
 		return true;
 		}
 	}
